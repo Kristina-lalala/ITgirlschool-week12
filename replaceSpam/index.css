@@ -1,0 +1,61 @@
+body {
+    background-color: rgb(8, 8, 8);
+}
+
+h2 {
+    color: aliceblue;
+}
+
+h3 {
+    color: blue;
+}
+
+label {
+    color: aliceblue;
+    
+}
+
+input {
+    background-color: rgb(0, 0, 0);
+    border: 1px dashed blue;
+    width: 500px;
+    color: aliceblue;
+}
+
+textarea {
+    background-color: rgb(0, 0, 0);
+    border: 1px dashed blue;
+    color: aliceblue;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 2fr 3fr 1fr;
+}
+
+#comment {
+    height: 200px;
+}
+
+.button {
+    margin-top: 20px;
+    background-color: blue;
+    color: antiquewhite;
+}
+
+.finalMassage {
+    color: rgb(49, 121, 183);
+    font-weight: bold;
+    align-self: flex-start;
+}
+
+.finalComment {
+    color: aliceblue;
+    border-bottom: 1px dashed blue;
+}
+
+.image {
+    width: 150px;
+    height: 200px;
+    border: 1px solid black;
+}

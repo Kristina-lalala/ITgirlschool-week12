@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/replaceSpam/index.css">
+</head>
+<body>
+    <h2>Сервис комментариев со спам-фильтром</h2>
+    <div class="container">
+        <form class="comments">
+            <h3>Оставьте ваш комментарий</h3>
+            <div>
+                <label for="name">Введите ваши ФИО:</label><br>
+                <input type="text" id="name">
+            </div><br>
+            <div>
+                <label for="link">Введите ссылку вашего аватара:</label><br>
+                <input type="text" id="link">
+            </div><br>
+            <div>
+                <label for="comment">Оставье комметарий:</label><br>
+                <textarea name="comment" id="comment" cols="65" rows="10"></textarea>
+            </div>
+        </form>
+        <div class="chat">
+            <h3>Чат</h3>
+                <div  class="container">
+                <div class="image" id="image"></div>
+                <div class="finalMassage" id="finalMassage"></div>
+            </div>
+            <br><div class="finalComment" id="finalComment"></div>
+        </div>
+    </div>
+    <button class="button" id="send" onclick="F()">Отправить</button>
+    <script src="/replaceSpam/index.js"></script>
+</body>
+</html>
