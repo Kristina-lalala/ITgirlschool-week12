@@ -1,5 +1,6 @@
 body {
-    background-color: rgb(8, 8, 8);
+    background-color: rgb(4, 4, 4);
+    color: aliceblue;
 }
 
 h2 {
@@ -30,7 +31,14 @@ textarea {
 
 .container {
     display: grid;
-    grid-template-columns: 2fr 3fr 1fr;
+    grid-template-columns: 2fr 3fr;
+    gap: 10px;
+}
+
+.container__comments {
+    display: grid;
+    grid-template-columns: 2fr 3fr 2fr;
+    gap: 10px;
 }
 
 #comment {
@@ -58,4 +66,18 @@ textarea {
     width: 150px;
     height: 200px;
     border: 1px solid black;
+}
+
+.date {
+    color: aliceblue;
+}
+
+#checkbox {
+    color: aliceblue;
+    width: 13px;
+}
+
+#checkboxNo {
+    color: aliceblue;
+    width: 13px;
 }

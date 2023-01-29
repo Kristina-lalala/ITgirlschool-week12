@@ -13,6 +13,11 @@
         <form class="comments">
             <h3>Оставьте ваш комментарий</h3>
             <div>
+                <div class="check">
+                    <label for="checkbox">Показывать ваше имя?</label>
+                    <input type="radio" id="checkbox" name="checkbox" checked> Да
+                    <input type="radio" id="checkboxNo" name="checkbox"> Hет
+                </div> <br>
                 <label for="name">Введите ваши ФИО:</label><br>
                 <input type="text" id="name">
             </div><br>
@@ -27,9 +32,10 @@
         </form>
         <div class="chat">
             <h3>Чат</h3>
-                <div  class="container">
+            <div  class="container__comments">
                 <div class="image" id="image"></div>
                 <div class="finalMassage" id="finalMassage"></div>
+                <div class="date" id="date"></div>
             </div>
             <br><div class="finalComment" id="finalComment"></div>
         </div>
